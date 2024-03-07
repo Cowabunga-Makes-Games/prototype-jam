@@ -28,6 +28,7 @@
 						<ObjectRef Name="Play_sfx_beefy_boy_dash" ID="{E4311F88-1DB9-4DA2-87A9-03079F4AC4E5}" WorkUnitID="{295D20A7-69A3-4172-BF5E-BF00E33887A1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_sfx_player_hurt" ID="{F2D8E87D-016C-4DA6-8E62-4CD589790A37}" WorkUnitID="{295D20A7-69A3-4172-BF5E-BF00E33887A1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_sfx_groovy" ID="{7FB8863C-987C-4F96-A523-14BA0486137B}" WorkUnitID="{295D20A7-69A3-4172-BF5E-BF00E33887A1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_mus_GettingCrabbyWithIt_120bpm" ID="{374AAF70-DF96-4F99-BA8D-55B85A9EEB42}" WorkUnitID="{295D20A7-69A3-4172-BF5E-BF00E33887A1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_sfx_player_dash" ID="{D6F8BF24-B6D5-4FEA-AC6B-3CEC97B0DDC4}" WorkUnitID="{295D20A7-69A3-4172-BF5E-BF00E33887A1}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

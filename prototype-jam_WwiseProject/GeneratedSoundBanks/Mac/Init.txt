@@ -1,5 +1,6 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	762757699	Gameplay_State			\Default Work Unit\Gameplay_State	
+	979765101	Win			\Default Work Unit\Win	
 	3296584377	hype			\avy music states\hype	
 	3765803840	Cutscenes			\Default Work Unit\Cutscenes	
 
@@ -7,6 +8,9 @@ State	ID	Name	State Group			Notes
 	748895195	None	Gameplay_State			
 	2716678721	Victory	Gameplay_State			
 	2764240573	Combat	Gameplay_State			
+	748895195	None	Win			
+	2967546505	In_Game	Win			
+	3218375656	Game_Win	Win			
 	436487211	hype_50	hype			
 	470042484	hype_75	hype			
 	520375247	hype_25	hype			

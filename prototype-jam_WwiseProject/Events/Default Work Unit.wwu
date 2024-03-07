@@ -349,6 +349,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_mus_GettingCrabbyWithIt_120bpm" ID="{374AAF70-DF96-4F99-BA8D-55B85A9EEB42}">
+					<ChildrenList>
+						<Action Name="" ID="{39E0F4B9-CC0B-4535-8DEB-B9FE87C66045}" ShortID="962735838">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="get crabby with it" ID="{67C731F7-7539-4990-A24A-DB3A307B3458}" WorkUnitID="{5CD6933B-0773-453D-BFFC-5483B47741B7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

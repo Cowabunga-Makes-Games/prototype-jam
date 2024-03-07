@@ -308,14 +308,14 @@
 				</ShareSets>
 			</Plugins>
 			<Events>
-				<Event Id="3983343057" Name="Play_sfx_beefy_boy_dash">
+				<Event Id="3983343057" Name="Play_sfx_beefy_boy_dash" DurationType="OneShot" DurationMin="0.78051597" DurationMax="1.2628355">
 					<MediaRefs>
 						<MediaRef Id="251763823"/>
 						<MediaRef Id="524094919"/>
 						<MediaRef Id="764608493"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="504043942" Name="Play_sfx_enemyBeefy_aggro">
+				<Event Id="504043942" Name="Play_sfx_enemyBeefy_aggro" DurationType="OneShot" DurationMin="1.1690443" DurationMax="1.8947845">
 					<MediaRefs>
 						<MediaRef Id="166319512"/>
 						<MediaRef Id="348335200"/>
@@ -323,21 +323,21 @@
 						<MediaRef Id="991664786"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3666456714" Name="Play_sfx_enemyBeefy_alert">
+				<Event Id="3666456714" Name="Play_sfx_enemyBeefy_alert" DurationType="OneShot" DurationMin="0.8256586" DurationMax="2.6087189">
 					<MediaRefs>
 						<MediaRef Id="34219380"/>
 						<MediaRef Id="656489993"/>
 						<MediaRef Id="960175453"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="966443990" Name="Play_sfx_enemyBeefy_death">
+				<Event Id="966443990" Name="Play_sfx_enemyBeefy_death" DurationType="OneShot" DurationMin="0.26440218" DurationMax="2.4643383">
 					<MediaRefs>
 						<MediaRef Id="298112850"/>
 						<MediaRef Id="634211499"/>
 						<MediaRef Id="885530422"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2827312655" Name="Play_sfx_enemyBeefy_endAttack">
+				<Event Id="2827312655" Name="Play_sfx_enemyBeefy_endAttack" DurationType="OneShot" DurationMin="2.5471392" DurationMax="4.5384855">
 					<MediaRefs>
 						<MediaRef Id="53863138"/>
 						<MediaRef Id="175233521"/>
@@ -347,7 +347,7 @@
 						<MediaRef Id="974045788"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3576742661" Name="Play_sfx_enemyBeefy_footsteps">
+				<Event Id="3576742661" Name="Play_sfx_enemyBeefy_footsteps" DurationType="OneShot" DurationMin="0.26380503" DurationMax="1.6466068">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2152775650" Default="true"/>
@@ -383,7 +383,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1327506600" Name="Play_sfx_enemyBeefy_startAttack">
+				<Event Id="1327506600" Name="Play_sfx_enemyBeefy_startAttack" DurationType="OneShot" DurationMin="0.45331177" DurationMax="1.7134986">
 					<MediaRefs>
 						<MediaRef Id="389860146"/>
 						<MediaRef Id="448787943"/>
@@ -392,21 +392,21 @@
 						<MediaRef Id="1069837018"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1841520935" Name="Play_sfx_enemyGuitar_aggro">
+				<Event Id="1841520935" Name="Play_sfx_enemyGuitar_aggro" MaxAttenuation="25" DurationType="OneShot" DurationMin="1.7127438" DurationMax="3.1666296">
 					<MediaRefs>
 						<MediaRef Id="66328359"/>
 						<MediaRef Id="227180075"/>
 						<MediaRef Id="315718201"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2296648555" Name="Play_sfx_enemyGuitar_alert">
+				<Event Id="2296648555" Name="Play_sfx_enemyGuitar_alert" MaxAttenuation="25" DurationType="OneShot" DurationMin="0.15382601" DurationMax="2.8564389">
 					<MediaRefs>
 						<MediaRef Id="118736863"/>
 						<MediaRef Id="366435762"/>
 						<MediaRef Id="724446481"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1140923239" Name="Play_sfx_enemyGuitar_attack">
+				<Event Id="1140923239" Name="Play_sfx_enemyGuitar_attack" MaxAttenuation="25" DurationType="OneShot" DurationMin="3.692313" DurationMax="3.692313">
 					<MediaRefs>
 						<MediaRef Id="199313268"/>
 						<MediaRef Id="357382036"/>
@@ -424,14 +424,14 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="1512650471" Name="Play_sfx_enemyGuitar_death">
+				<Event Id="1512650471" Name="Play_sfx_enemyGuitar_death" MaxAttenuation="25" DurationType="OneShot" DurationMin="3.7600226" DurationMax="5.5950675">
 					<MediaRefs>
 						<MediaRef Id="174897676"/>
 						<MediaRef Id="409162538"/>
 						<MediaRef Id="776970318"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2002635633" Name="Play_sfx_player_footsteps">
+				<Event Id="2002635633" Name="Play_sfx_player_footsteps" DurationType="OneShot" DurationMin="0.3345471" DurationMax="0.99267775">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2152775650" Default="true"/>
@@ -520,8 +520,8 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2731617764" Name="Mute_level_one_music"/>
-				<Event Id="3532690205" Name="Play_level_one_music">
+				<Event Id="2731617764" Name="Mute_level_one_music" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3532690205" Name="Play_level_one_music" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="794838114"/>
 						<MediaRef Id="852624060"/>
@@ -562,8 +562,8 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1812361235" Name="Stop_level_one_music"/>
-				<Event Id="954606969" Name="Unmute_level_one_music"/>
+				<Event Id="1812361235" Name="Stop_level_one_music" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="954606969" Name="Unmute_level_one_music" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 			<StateGroups>
 				<StateGroup Id="3296584377" Name="hype">
@@ -578,7 +578,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{571D7D71-44E7-26B7-C6EB-D067EDDF9133}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{A76045B8-B99F-17CB-953E-BF79D869EB76}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -600,6 +600,13 @@
 						<State Id="748895195" Name="None"/>
 						<State Id="2716678721" Name="Victory"/>
 						<State Id="2764240573" Name="Combat"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="979765101" Name="Win">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="2967546505" Name="In_Game"/>
+						<State Id="3218375656" Name="Game_Win"/>
 					</States>
 				</StateGroup>
 				<StateGroup Id="3296584377" Name="hype">
@@ -630,7 +637,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{BCAFA23B-B55B-F161-22A6-FAAF335ABF77}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{E0B07B48-A3F2-2DC8-D0E4-6B7DEE589F47}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -670,6 +677,10 @@
 					<ShortName>sfx_taunts_raspberry_2.wav</ShortName>
 					<CachePath>SFX/sfx_taunts_raspberry_2_3F75BDB9.wem</CachePath>
 				</File>
+				<File Id="103363001" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mus_GetCrabbyWithIt_toms 4-005.wav</ShortName>
+					<CachePath>SFX/mus_GetCrabbyWithIt_toms 4-005_9EDFC787.wem</CachePath>
+				</File>
 				<File Id="103508686" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_tom_step_4.wav</ShortName>
 					<CachePath>SFX/sfx_tom_step_4_AEC65BBC.wem</CachePath>
@@ -690,6 +701,14 @@
 					<ShortName>AAA_sax_3.wav</ShortName>
 					<CachePath>SFX/AAA_sax_3_9EDFC787.wem</CachePath>
 				</File>
+				<File Id="153501546" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mus_GetCrabbyWithIt_toms 3.wav</ShortName>
+					<CachePath>SFX/mus_GetCrabbyWithIt_toms 3_9EDFC787.wem</CachePath>
+				</File>
+				<File Id="168745943" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mus_GetCrabbyWithIt_toms 4.wav</ShortName>
+					<CachePath>SFX/mus_GetCrabbyWithIt_toms 4_9EDFC787.wem</CachePath>
+				</File>
 				<File Id="217413579" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AAA_sax_10.wav</ShortName>
 					<CachePath>SFX/AAA_sax_10_9EDFC787.wem</CachePath>
@@ -702,6 +721,10 @@
 					<ShortName>dialogue_low_r.wav</ShortName>
 					<CachePath>SFX/dialogue_low_r_3F75BDB9.wem</CachePath>
 				</File>
+				<File Id="232128070" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mus_GetCrabbyWithIt_toms 4-004.wav</ShortName>
+					<CachePath>SFX/mus_GetCrabbyWithIt_toms 4-004_9EDFC787.wem</CachePath>
+				</File>
 				<File Id="241680522" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>dialogue_low_p.wav</ShortName>
 					<CachePath>SFX/dialogue_low_p_3F75BDB9.wem</CachePath>
@@ -709,6 +732,10 @@
 				<File Id="251763823" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_taunt_enemy_dash_1.wav</ShortName>
 					<CachePath>SFX/sfx_taunt_enemy_dash_1_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="255055747" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mus_GetCrabbyWithIt_stinger.wav</ShortName>
+					<CachePath>SFX/mus_GetCrabbyWithIt_stinger_9EDFC787.wem</CachePath>
 				</File>
 				<File Id="260376967" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>dialogue_low_x.wav</ShortName>
@@ -742,6 +769,10 @@
 					<ShortName>FoolTrickery_bpm93.wav</ShortName>
 					<CachePath>SFX/FoolTrickery_bpm93_9EDFC787.wem</CachePath>
 				</File>
+				<File Id="353264163" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mus_GetCrabbyWithIt_toms 4-003.wav</ShortName>
+					<CachePath>SFX/mus_GetCrabbyWithIt_toms 4-003_9EDFC787.wem</CachePath>
+				</File>
 				<File Id="356099246" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AAA_sax_9.wav</ShortName>
 					<CachePath>SFX/AAA_sax_9_9EDFC787.wem</CachePath>
@@ -757,6 +788,10 @@
 				<File Id="380291550" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>mus_Alien_Arena_Kill!_disco_170bpm_loop_standard.wav</ShortName>
 					<CachePath>SFX/mus_Alien_Arena_Kill!_disco_170bpm_loop_standard_9EDFC787.wem</CachePath>
+				</File>
+				<File Id="387885226" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mus_GetCrabbyWithIt_clicktrack.wav</ShortName>
+					<CachePath>SFX/mus_GetCrabbyWithIt_clicktrack_9EDFC787.wem</CachePath>
 				</File>
 				<File Id="394800615" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AAA_sax_8.wav</ShortName>
@@ -798,6 +833,10 @@
 					<ShortName>sfx_cutscene_dialogue_select_1.wav</ShortName>
 					<CachePath>SFX/sfx_cutscene_dialogue_select_1_3F75BDB9.wem</CachePath>
 				</File>
+				<File Id="455446162" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mus_GetCrabbyWithIt_toms 4-014.wav</ShortName>
+					<CachePath>SFX/mus_GetCrabbyWithIt_toms 4-014_9EDFC787.wem</CachePath>
+				</File>
 				<File Id="460932864" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>dialogue_low_k.wav</ShortName>
 					<CachePath>SFX/dialogue_low_k_3F75BDB9.wem</CachePath>
@@ -830,9 +869,21 @@
 					<ShortName>AAA_sax_5.wav</ShortName>
 					<CachePath>SFX/AAA_sax_5_9EDFC787.wem</CachePath>
 				</File>
+				<File Id="537436478" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mus_GetCrabbyWithIt_toms 4-008.wav</ShortName>
+					<CachePath>SFX/mus_GetCrabbyWithIt_toms 4-008_9EDFC787.wem</CachePath>
+				</File>
 				<File Id="553666030" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>dialogue_low_g.wav</ShortName>
 					<CachePath>SFX/dialogue_low_g_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="557285515" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mus_GetCrabbyWithIt_toms 4-006.wav</ShortName>
+					<CachePath>SFX/mus_GetCrabbyWithIt_toms 4-006_9EDFC787.wem</CachePath>
+				</File>
+				<File Id="560543431" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mus_GetCrabbyWithIt_toms 4-007.wav</ShortName>
+					<CachePath>SFX/mus_GetCrabbyWithIt_toms 4-007_9EDFC787.wem</CachePath>
 				</File>
 				<File Id="563811625" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FoolTrickery_bpm93_loop.wav</ShortName>
@@ -849,6 +900,10 @@
 				<File Id="603062409" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_taunts_akanbe_2.wav</ShortName>
 					<CachePath>SFX/sfx_taunts_akanbe_2_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="605451264" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mus_GetCrabbyWithIt_toms 4-013.wav</ShortName>
+					<CachePath>SFX/mus_GetCrabbyWithIt_toms 4-013_9EDFC787.wem</CachePath>
 				</File>
 				<File Id="610401303" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>dialogue_low_b.wav</ShortName>
@@ -910,6 +965,10 @@
 					<ShortName>dialogue_low_e.wav</ShortName>
 					<CachePath>SFX/dialogue_low_e_3F75BDB9.wem</CachePath>
 				</File>
+				<File Id="784091656" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mus_GetCrabbyWithIt_toms 4-002.wav</ShortName>
+					<CachePath>SFX/mus_GetCrabbyWithIt_toms 4-002_9EDFC787.wem</CachePath>
+				</File>
 				<File Id="788983524" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_taunts_you_scared_1.wav</ShortName>
 					<CachePath>SFX/sfx_taunts_you_scared_1_3F75BDB9.wem</CachePath>
@@ -926,6 +985,10 @@
 					<ShortName>dialogue_low_q.wav</ShortName>
 					<CachePath>SFX/dialogue_low_q_3F75BDB9.wem</CachePath>
 				</File>
+				<File Id="807878976" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mus_GetCrabbyWithIt_toms 4-012.wav</ShortName>
+					<CachePath>SFX/mus_GetCrabbyWithIt_toms 4-012_9EDFC787.wem</CachePath>
+				</File>
 				<File Id="825759985" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_charger_aggro_increase_1.wav</ShortName>
 					<CachePath>SFX/sfx_charger_aggro_increase_1_3F75BDB9.wem</CachePath>
@@ -938,6 +1001,14 @@
 					<ShortName>AAA_sax_6.wav</ShortName>
 					<CachePath>SFX/AAA_sax_6_9EDFC787.wem</CachePath>
 				</File>
+				<File Id="859715015" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mus_GetCrabbyWithIt_toms 4-011.wav</ShortName>
+					<CachePath>SFX/mus_GetCrabbyWithIt_toms 4-011_9EDFC787.wem</CachePath>
+				</File>
+				<File Id="867507988" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mus_GetCrabbyWithIt_toms 4-010.wav</ShortName>
+					<CachePath>SFX/mus_GetCrabbyWithIt_toms 4-010_9EDFC787.wem</CachePath>
+				</File>
 				<File Id="882571690" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>mus_Alien_Arena_Kill!_disco_170bpm_loop_hype_brass.wav</ShortName>
 					<CachePath>SFX/mus_Alien_Arena_Kill!_disco_170bpm_loop_hype_brass_9EDFC787.wem</CachePath>
@@ -946,9 +1017,21 @@
 					<ShortName>mus_Alien_Arena_Kill!_disco_170bpm_loop_standard_percussion.wav</ShortName>
 					<CachePath>SFX/mus_Alien_Arena_Kill!_disco_170bpm_loop_standard_percussion_9EDFC787.wem</CachePath>
 				</File>
+				<File Id="900620288" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mus_GetCrabbyWithIt_toms 2.wav</ShortName>
+					<CachePath>SFX/mus_GetCrabbyWithIt_toms 2_9EDFC787.wem</CachePath>
+				</File>
 				<File Id="937805411" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_cutscene_dialogue_select_3.wav</ShortName>
 					<CachePath>SFX/sfx_cutscene_dialogue_select_3_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="968657545" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mus_GetCrabbyWithIt_toms 4-001.wav</ShortName>
+					<CachePath>SFX/mus_GetCrabbyWithIt_toms 4-001_9EDFC787.wem</CachePath>
+				</File>
+				<File Id="977098330" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mus_GetCrabbyWithIt_toms 4-009.wav</ShortName>
+					<CachePath>SFX/mus_GetCrabbyWithIt_toms 4-009_9EDFC787.wem</CachePath>
 				</File>
 				<File Id="1005618731" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>dialogue_low_o.wav</ShortName>
@@ -957,6 +1040,10 @@
 				<File Id="1007579897" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_player_death.wav</ShortName>
 					<CachePath>SFX/sfx_player_death_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="1015726522" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mus_GetCrabbyWithIt_toms 1.wav</ShortName>
+					<CachePath>SFX/mus_GetCrabbyWithIt_toms 1_9EDFC787.wem</CachePath>
 				</File>
 				<File Id="1027884932" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>dialogue_low_f.wav</ShortName>
@@ -996,7 +1083,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="341582045" Name="Play_Alien_Arena_Assault_170bpm">
+				<Event Id="341582045" Name="Play_Alien_Arena_Assault_170bpm" DurationType="Infinite">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="762757699" Id="2716678721"/>
@@ -1027,20 +1114,20 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1926045526" Name="Play_charger_angy">
+				<Event Id="1926045526" Name="Play_charger_angy" MaxAttenuation="25" DurationType="OneShot" DurationMin="1.5" DurationMax="2">
 					<MediaRefs>
 						<MediaRef Id="292366327"/>
 						<MediaRef Id="618887788"/>
 						<MediaRef Id="825759985"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3579375072" Name="Play_charger_lunge">
+				<Event Id="3579375072" Name="Play_charger_lunge" MaxAttenuation="25" DurationType="OneShot" DurationMin="1" DurationMax="1.5">
 					<MediaRefs>
 						<MediaRef Id="63593165"/>
 						<MediaRef Id="119466304"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="49843898" Name="Play_dialogue_low_grumbly">
+				<Event Id="49843898" Name="Play_dialogue_low_grumbly" DurationType="OneShot" DurationMin="0" DurationMax="0.47634038">
 					<MediaRefs>
 						<MediaRef Id="4410648"/>
 						<MediaRef Id="9816465"/>
@@ -1070,7 +1157,7 @@
 						<MediaRef Id="1045439990"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3892471342" Name="Play_mus_fool_trickery_93bpm">
+				<Event Id="3892471342" Name="Play_mus_fool_trickery_93bpm" DurationType="Infinite">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="3765803840" Id="1651971872"/>
@@ -1088,62 +1175,96 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="2758388342" Name="Play_mus_Pause_75bpm">
+				<Event Id="2005198501" Name="Play_mus_GettingCrabbyWithIt_120bpm" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="979765101" Id="2967546505"/>
+							<MediaRefs>
+								<MediaRef Id="103363001"/>
+								<MediaRef Id="153501546"/>
+								<MediaRef Id="168745943"/>
+								<MediaRef Id="232128070"/>
+								<MediaRef Id="353264163"/>
+								<MediaRef Id="387885226"/>
+								<MediaRef Id="455446162"/>
+								<MediaRef Id="537436478"/>
+								<MediaRef Id="557285515"/>
+								<MediaRef Id="560543431"/>
+								<MediaRef Id="605451264"/>
+								<MediaRef Id="784091656"/>
+								<MediaRef Id="807878976"/>
+								<MediaRef Id="859715015"/>
+								<MediaRef Id="867507988"/>
+								<MediaRef Id="900620288"/>
+								<MediaRef Id="968657545"/>
+								<MediaRef Id="977098330"/>
+								<MediaRef Id="1015726522"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="979765101" Id="3218375656"/>
+							<MediaRefs>
+								<MediaRef Id="255055747"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2758388342" Name="Play_mus_Pause_75bpm" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="224255706"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3263497147" Name="Play_mus_Trickfoolery_222bpm">
+				<Event Id="3263497147" Name="Play_mus_Trickfoolery_222bpm" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="1033023117"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3983343057" Name="Play_sfx_beefy_boy_dash">
+				<Event Id="3983343057" Name="Play_sfx_beefy_boy_dash" DurationType="OneShot" DurationMin="0.78051597" DurationMax="1.2628355">
 					<MediaRefs>
 						<MediaRef Id="251763823"/>
 						<MediaRef Id="524094919"/>
 						<MediaRef Id="764608493"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="843029991" Name="Play_sfx_charger_death">
+				<Event Id="843029991" Name="Play_sfx_charger_death" MaxAttenuation="25" DurationType="OneShot" DurationMin="1.5" DurationMax="2">
 					<MediaRefs>
 						<MediaRef Id="275378158"/>
 						<MediaRef Id="507762272"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2343006462" Name="Play_sfx_confirm">
+				<Event Id="2343006462" Name="Play_sfx_confirm" DurationType="OneShot" DurationMin="4.5" DurationMax="4.5">
 					<MediaRefs>
 						<MediaRef Id="621091837"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3665640674" Name="Play_sfx_cutscene_dialogue_select">
+				<Event Id="3665640674" Name="Play_sfx_cutscene_dialogue_select" DurationType="OneShot" DurationMin="0.45462582" DurationMax="0.92943">
 					<MediaRefs>
 						<MediaRef Id="139316545"/>
 						<MediaRef Id="431864938"/>
 						<MediaRef Id="937805411"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="526466336" Name="Play_sfx_groovy">
+				<Event Id="526466336" Name="Play_sfx_groovy" DurationType="OneShot" DurationMin="2" DurationMax="2">
 					<MediaRefs>
 						<MediaRef Id="375178555"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3683043420" Name="Play_sfx_pause">
+				<Event Id="3683043420" Name="Play_sfx_pause" DurationType="OneShot" DurationMin="2" DurationMax="2">
 					<MediaRefs>
 						<MediaRef Id="1066273250"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4077681152" Name="Play_sfx_player_dash">
+				<Event Id="4077681152" Name="Play_sfx_player_dash" DurationType="OneShot" DurationMin="0.37457678" DurationMax="0.6674199">
 					<MediaRefs>
 						<MediaRef Id="429033431"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1591758634" Name="Play_sfx_player_death">
+				<Event Id="1591758634" Name="Play_sfx_player_death" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
 					<MediaRefs>
 						<MediaRef Id="1007579897"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1067524079" Name="Play_sfx_player_hurt">
+				<Event Id="1067524079" Name="Play_sfx_player_hurt" DurationType="OneShot" DurationMin="1" DurationMax="1">
 					<MediaRefs>
 						<MediaRef Id="403074574"/>
 						<MediaRef Id="405788637"/>
@@ -1151,12 +1272,12 @@
 						<MediaRef Id="1070951602"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="325086926" Name="Play_sfx_select">
+				<Event Id="325086926" Name="Play_sfx_select" DurationType="OneShot" DurationMin="1.8866584" DurationMax="2.1497467">
 					<MediaRefs>
 						<MediaRef Id="673051370"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1800631706" Name="Play_sfx_taunt">
+				<Event Id="1800631706" Name="Play_sfx_taunt" DurationType="OneShot" DurationMin="1.5" DurationMax="3">
 					<MediaRefs>
 						<MediaRef Id="83193888"/>
 						<MediaRef Id="305122859"/>
@@ -1170,7 +1291,7 @@
 						<MediaRef Id="829787396"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2661393732" Name="Play_sfx_tomstep">
+				<Event Id="2661393732" Name="Play_sfx_tomstep" DurationType="OneShot" DurationMin="0.3509921" DurationMax="0.35616517">
 					<MediaRefs>
 						<MediaRef Id="21309808"/>
 						<MediaRef Id="103508686"/>
@@ -1181,15 +1302,15 @@
 						<MediaRef Id="1043628278"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3476672187" Name="Play_sfx_unpause">
+				<Event Id="3476672187" Name="Play_sfx_unpause" DurationType="OneShot" DurationMin="2" DurationMax="2">
 					<MediaRefs>
 						<MediaRef Id="395767410"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1234905987" Name="Stop_Alien_Arena_Assault_170bpm"/>
-				<Event Id="2735462868" Name="Stop_mus_fool_trickery_93bpm"/>
-				<Event Id="3352794624" Name="Stop_mus_pause_75bpm"/>
-				<Event Id="2601853237" Name="Stop_mus_Trickfoolery_222bpm"/>
+				<Event Id="1234905987" Name="Stop_Alien_Arena_Assault_170bpm" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2735462868" Name="Stop_mus_fool_trickery_93bpm" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3352794624" Name="Stop_mus_pause_75bpm" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2601853237" Name="Stop_mus_Trickfoolery_222bpm" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 			<GameParameters>
 				<GameParameter Id="3296584377" Name="Hype"/>
@@ -1203,6 +1324,13 @@
 						<State Id="2764240573" Name="Combat"/>
 					</States>
 				</StateGroup>
+				<StateGroup Id="979765101" Name="Win">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="2967546505" Name="In_Game"/>
+						<State Id="3218375656" Name="Game_Win"/>
+					</States>
+				</StateGroup>
 				<StateGroup Id="3765803840" Name="Cutscenes">
 					<States>
 						<State Id="579136826" Name="Op_Ending"/>
@@ -1213,5 +1341,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A24FF1B9-FA8F-CE02-1731-8E210C6019E9}</FileHash>
+	<FileHash>{5C84CDE3-82A1-3E30-E6DC-1F77B9B7F221}</FileHash>
 </SoundBanksInfo>
