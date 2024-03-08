@@ -29,7 +29,7 @@ public class Player : Character
 {
 
 
-    public Player(PosNode p : base(p))
+    public Player(PosNode p) : base(p)
     {
     }
 
@@ -51,7 +51,7 @@ public class Player : Character
 //Parent class for all enemies, we can create children classes for each subtype
 public class Enemy : Character
 {
-    public Enemy(PosNode p : base(p))
+    public Enemy(PosNode p) : base(p)
     {
     }
 }

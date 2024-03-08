@@ -29,8 +29,8 @@ public class PosNode
 	//nonempty init
 	public PosNode((int, int) p, Character o, PosNode n, PosNode s, PosNode e, PosNode w)
 	{
-		pos = pos;
-		Occupant = Occupant;
+		pos = p;
+		Occupant = o;
 		North = n;
 		South = s;
 		East = e;
@@ -45,20 +45,20 @@ public class PosNode
 
 	public PosNode getNorth()
 	{
-		return North:
+		return North;
 	}
     public PosNode getSouth()
     {
-        return South:
+        return South;
 	}
     public PosNode getEast()
     {
-        return East:
-	}
+	    return East;
+    }
     public PosNode getWest()
     {
-        return West:
-	}
+	    return West;
+    }
 
 	public void setOccupant(Character c)
 	{
