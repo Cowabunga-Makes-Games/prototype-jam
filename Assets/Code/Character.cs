@@ -21,6 +21,54 @@ public class Character
     {
 		pos = p;
     }
+    
+    //move this character north one node
+    public void moveNorth()
+    {
+	    if (this.pos.getNorth().isOpen())
+	    {
+		    this.pos.setOccupant(null);
+		    this.pos = this.pos.getNorth();
+		    this.pos.setOccupant(this);
+
+	    }
+    }
+    
+    // move this character south one node
+    public void moveSouth()
+    {
+	    if (this.pos.getSouth().isOpen())
+	    {
+		    this.pos.setOccupant(null);
+		    this.pos = this.pos.getSouth();
+		    this.pos.setOccupant(this);
+
+	    }
+    }
+    
+    // move this character east one node
+    public void moveEast()
+    {
+	    if (this.pos.getEast().isOpen())
+	    {
+		    this.pos.setOccupant(null);
+		    this.pos = this.pos.getEast();
+		    this.pos.setOccupant(this);
+
+	    }
+    }
+    
+    // move this character west one node
+    public void moveWest()
+    {
+	    if (this.pos.getWest().isOpen())
+	    {
+		    this.pos.setOccupant(null);
+		    this.pos = this.pos.getWest();
+		    this.pos.setOccupant(this);
+
+	    }
+    }
 }
 
 
@@ -31,19 +79,6 @@ public class Player : Character
 
     public Player(PosNode p) : base(p)
     {
-    }
-
-
-    //move the player north one node
-    public void moveNorth()
-    {
-        if (this.pos.getNorth().isOpen())
-        {
-            this.pos.setOccupant(null);
-            this.pos = this.pos.getNorth();
-            this.pos.setOccupant(this);
-
-        }
     }
 }
 
