@@ -27,11 +27,6 @@ public class GridManager : MonoBehaviour
          {
             Vector2Int pos = new Vector2Int(x, y);
             _grid.Add(pos, new PosNode(pos));
-            
-            // GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
-            // Vector3 position = new Vector3(pos.x * unityGridSize, pos.y * unityGridSize);
-            // cube.transform.position = position;
-            // cube.transform.SetParent(transform);
          }
       }
    }
