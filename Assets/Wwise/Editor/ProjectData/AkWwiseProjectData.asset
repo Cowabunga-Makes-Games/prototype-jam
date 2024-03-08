@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 143fe34c57c18247b1481371fe791e53
     GuidInternal: 
-    m_lastTime: -8584917563814775808
+    m_lastTime: -8584917656660566047
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: e6e299758791d448b473552cd8168460
     GuidInternal: 
-    m_lastTime: -8584917563914775808
+    m_lastTime: -8584917656739823293
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\avy soundbanks
     guid: 4f9368ee7108354b9d150dc7125847fd
     GuidInternal: 
-    m_lastTime: -8584917563814775808
+    m_lastTime: -8584917656660667291
     List:
     - name: mus
       guid: ac1687129871b743af871a5c74d5106b
@@ -107,7 +107,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: ef7e3c329da03f45bc42f96cf0be92c3
     GuidInternal: 
-    m_lastTime: -8584917563814775808
+    m_lastTime: -8584917643518393591
     List:
     - name: Main
       guid: 6659c9fcc98b8f42a86f77bd80236dce
@@ -135,7 +135,7 @@ MonoBehaviour:
     ParentPath: Events\avy music events
     guid: 8baaadf9c8ed3445a187a91190a7f211
     GuidInternal: 
-    m_lastTime: -8584917563934775808
+    m_lastTime: -8584917656745096508
     List:
     - name: Mute_level_one_music
       guid: 477c3a8273e86a4e8369cd967ae34c0d
@@ -216,7 +216,7 @@ MonoBehaviour:
     ParentPath: Events\avy sfx events
     guid: e4bef5de3a603143ac9568c3f0c086aa
     GuidInternal: 
-    m_lastTime: -8584917563934775808
+    m_lastTime: -8584917656745096508
     List:
     - name: Play_sfx_enemyBeefy
       guid: e55b834f50f12c4c92fd53370b2a60c1
@@ -500,7 +500,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: a7205d29a3697241bf5ebf00e33887a1
     GuidInternal: 
-    m_lastTime: -8584917563934775808
+    m_lastTime: -8584917643522940902
     List:
     - name: Play_Alien_Arena_Assault_170bpm
       guid: ffe7338374207445ada63f3f7b5da275
@@ -1024,7 +1024,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 892490710cf8ef4db7ac12c89f1cdd54
     GuidInternal: 
-    m_lastTime: -8584917563934775808
+    m_lastTime: -8584917656745076071
     List:
     - name: Hype
       guid: 34ac0ff1f98e2b45915383ade95b5819
@@ -1066,7 +1066,7 @@ MonoBehaviour:
     ParentPath: States\avy music states
     guid: 88f9a8ba8936b2469affb6b387ee26c7
     GuidInternal: 
-    m_lastTime: -8584917563814775808
+    m_lastTime: -8584917656660626072
     List:
     - name: hype
       guid: c7cd1fb61becfe4fa4fe776204b2fa7c
@@ -1193,7 +1193,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 2342ccbf0aa9c04f9192554bce3163ed
     GuidInternal: 
-    m_lastTime: -8584917563814775808
+    m_lastTime: -8584917656660626072
     List:
     - name: Cutscenes
       guid: a736e536d4d1714f9103dab8138e6e50
@@ -1405,7 +1405,7 @@ MonoBehaviour:
     ParentPath: Switches\avy switches
     guid: 48274d0beb00ff48b221ac723344092f
     GuidInternal: 
-    m_lastTime: -8584917563814775808
+    m_lastTime: -8584917656660596308
     List:
     - name: footsteps
       guid: 575f742d082bb84398b86a72caabf670
@@ -1484,7 +1484,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 703b9a431f11b54492eb565cd920d6e2
     GuidInternal: 
-    m_lastTime: -8584917563814775808
+    m_lastTime: -8584917656660612938
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -1498,7 +1498,7 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 33c9e3b26a54984c8c894d99c93645b1
     GuidInternal: 
-    m_lastTime: -8584917563814775808
+    m_lastTime: -8584917656660586073
     List:
     - name: F_press
       guid: fa2033af2f5ccb4399c8256dd2d5007f
