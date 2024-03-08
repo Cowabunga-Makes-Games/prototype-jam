@@ -1,4 +1,5 @@
 ﻿using System;
+using UnityEngine;
 
 
 //Simple node to store the position in a grid
@@ -6,7 +7,7 @@ public class PosNode
 {
 
 	//stores the position of the node
-	private (int, int) pos;
+	public Vector2Int pos;
 	//stores the character occupying the node
 	public Character Occupant;
 	//stores the nodes north (+y), south (-y), east (+x), and west (-x) of this node, may need to add more or modify to an array if we add diagonal movement
@@ -18,7 +19,7 @@ public class PosNode
 	//empty init
 	public PosNode()
 	{
-		pos = (0, 0);
+		pos = Vector2Int.zero;
 		Occupant = null;
 		North = null;
 		South = null;
@@ -26,8 +27,13 @@ public class PosNode
 		West = null;
 	}
 
+	public PosNode(Vector2Int p)
+	{
+		pos = p;
+	}
+
 	//nonempty init
-	public PosNode((int, int) p, Character o, PosNode n, PosNode s, PosNode e, PosNode w)
+	public PosNode(Vector2Int p, Character o, PosNode n, PosNode s, PosNode e, PosNode w)
 	{
 		pos = p;
 		Occupant = o;
