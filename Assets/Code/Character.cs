@@ -88,6 +88,12 @@ public class Enemy : Character
 {
     public Enemy(PosNode p) : base(p)
     {
+	    throw new NotImplementedException();
+    }
+
+    public bool initateDeath()
+    {
+	    throw new NotImplementedException();
     }
 }
 

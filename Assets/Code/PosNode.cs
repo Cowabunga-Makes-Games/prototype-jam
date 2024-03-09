@@ -30,6 +30,7 @@ public class PosNode
 	public PosNode(Vector2Int p)
 	{
 		pos = p;
+		Occupant = null;
 	}
 
 	//nonempty init
