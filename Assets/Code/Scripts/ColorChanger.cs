@@ -17,13 +17,8 @@ public class ColorChanger : MonoBehaviour {
         onBeat.AddListener(this.ChangeColor);
     }
 
-    private void ChangeColor() {
-        if (_isGreen) {
-            _renderer.material = purple;
-        } else {
-            _renderer.material = green;
-        }
-
+    public void ChangeColor() {
+        _renderer.material = _isGreen ? purple : green;
         _isGreen = !_isGreen;
     }
 }
