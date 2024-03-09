@@ -1,8 +1,9 @@
 ﻿using System;
+using UnityEngine;
 
 
 //Simple parent class for both player and enemy characters
-public class Character
+public class Character : MonoBehaviour
 {
 	//stores position of character
 	public PosNode pos;
@@ -93,7 +94,8 @@ public class Enemy : Character
 
     public bool initateDeath()
     {
-	    throw new NotImplementedException();
+	    this.GetComponent<Renderer>().material.color = new Color(0, 0, 0);
+	    return true;
     }
 }
 

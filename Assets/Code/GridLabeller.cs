@@ -7,7 +7,7 @@ using TMPro;
 public class GridLabeller : MonoBehaviour
 {
     private TextMeshPro label;
-    private Vector2Int pos = new Vector2Int();
+    public Vector2Int pos = new Vector2Int();
     private GridManager gridManager;
 
     private void Awake()
