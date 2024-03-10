@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour  {
@@ -8,6 +9,9 @@ public class PlayerController : MonoBehaviour  {
     
     // ----------------- Input -------------------
     private PlayerInputActions _playerInputActions;
+    
+    // ------------- Unity Events ----------------
+    public UnityEvent OnMovementInput;
     
     private void Awake() {
         this.Player = this.GetComponent<PlayerCharacter>();
@@ -33,6 +37,7 @@ public class PlayerController : MonoBehaviour  {
     }
     
     private void MovePlayer(InputAction.CallbackContext obj) {
+        this.OnMovementInput?.Invoke();
         this.Player.InvokeMovement(this._playerInputActions.Player.Movement.ReadValue<Vector2>());
     }
 }

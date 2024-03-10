@@ -350,6 +350,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93861f26d1aa184fa6fb88acb4fb6de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnMovementInput:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &82852748
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2465,6 +2468,11 @@ PrefabInstance:
       propertyPath: MusicManager
       value: 
       objectReference: {fileID: 420511903}
+    - target: {fileID: 6462396644043547623, guid: ac7826f264e854148ad13e7bd04bf981,
+        type: 3}
+      propertyPath: InputController
+      value: 
+      objectReference: {fileID: 76061783}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
