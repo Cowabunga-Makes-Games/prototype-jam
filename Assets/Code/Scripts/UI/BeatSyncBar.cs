@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class BeatSyncBar : MonoBehaviour {
@@ -8,6 +9,7 @@ public class BeatSyncBar : MonoBehaviour {
     public PlayerController InputController;
     public GameObject BeatIndicator;
     public GameObject BeatIndicatorContainer;
+    public TextMeshProUGUI EvaluationText;
     
     public enum EvaluationState {
         Early,
@@ -56,16 +58,16 @@ public class BeatSyncBar : MonoBehaviour {
             case EvaluationState.Early:
                 return;
             case EvaluationState.Okay:
-                // Spawn popup for "Okay"
+                EvaluationText.text = "Okay T^T";
                 break;
             case EvaluationState.Good:
-                // Spawn popup for "Good"
+                EvaluationText.text = "Good";
                 break;
             case EvaluationState.Perfect:
-                // Spawn popup for "Perfect"
+                EvaluationText.text = "Parfait!";
                 break;
             case EvaluationState.Late:
-                // Spawn popup for "Late"
+                EvaluationText.text = "Late ;_;";
                 break;
             default:
                 break;

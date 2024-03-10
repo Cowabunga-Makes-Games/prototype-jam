@@ -2458,6 +2458,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1234181567143782109, guid: ac7826f264e854148ad13e7bd04bf981,
+        type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 4387440887098023196, guid: ac7826f264e854148ad13e7bd04bf981,
         type: 3}
       propertyPath: m_Name
@@ -2470,6 +2475,11 @@ PrefabInstance:
       objectReference: {fileID: 420511903}
     - target: {fileID: 6462396644043547623, guid: ac7826f264e854148ad13e7bd04bf981,
         type: 3}
+      propertyPath: EvaluationText
+      value: 
+      objectReference: {fileID: 794361085966164226}
+    - target: {fileID: 6462396644043547623, guid: ac7826f264e854148ad13e7bd04bf981,
+        type: 3}
       propertyPath: InputController
       value: 
       objectReference: {fileID: 76061783}
@@ -2478,6 +2488,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac7826f264e854148ad13e7bd04bf981, type: 3}
+--- !u!114 &794361085966164226 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8169624782127620920, guid: ac7826f264e854148ad13e7bd04bf981,
+    type: 3}
+  m_PrefabInstance: {fileID: 794361085966164225}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
