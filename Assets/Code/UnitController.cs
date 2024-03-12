@@ -7,7 +7,7 @@ public class UnitController : MonoBehaviour
 {
     [SerializeField] float movementSpeed = 1f;
 
-    Transform selectedUnit;
+    GameObject selectedUnit;
     bool unitSelected = false;
 
     GridManager gridManager;
@@ -30,24 +30,29 @@ public class UnitController : MonoBehaviour
             bool hasHit = Physics.Raycast(ray, out hit);
 
             if(hasHit)
-            {   Debug.Log("The tag is: " + hit.transform.tag);
+            {  
+                Debug.Log(hit.transform.tag.ToString());
                 if(hit.transform.tag == "Tile")
                 {   
                     Debug.Log("Tile hit!");
-                    if(unitSelected)
-                    {
-                        Vector2Int targetCords = hit.transform.GetComponent<GridLabeller>().pos;
-                        Vector2Int startCords = new Vector2Int((int) selectedUnit.position.x, (int) selectedUnit.position.y) / gridManager.UnityGridSize;
-
-                        selectedUnit.transform.position = new Vector3(targetCords.x, selectedUnit.position.y, targetCords.y);
-                    }
+                    // if(unitSelected)
+                    // {
+                    //     Vector2Int targetCords = hit.transform.GetComponent<GridLabeller>().pos;
+                    //     Vector2Int startCords = new Vector2Int((int) selectedUnit.position.x, (int) selectedUnit.position.y) / gridManager.UnityGridSize;
+                    //
+                    //     selectedUnit.transform.position = new Vector3(targetCords.x, selectedUnit.position.y, targetCords.y);
+                    // }
                 }
 
-                if(hit.transform.tag == "Unit")
+                if(hit.transform.tag == "Enemy")
                 {
-                    selectedUnit = hit.transform;
+                    selectedUnit = hit.transform.gameObject;
                     unitSelected = true;
-                    Debug.Log("Unit hit!");
+                    Debug.Log("Enemy hit!");
+                    
+                    // initiate death sequence
+                    Enemy enemy = selectedUnit.GetComponent<Enemy>();
+                    enemy.initateDeath();
                 }
             }
         }
