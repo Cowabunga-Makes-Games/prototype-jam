@@ -6,6 +6,8 @@ using UnityEngine;
 public class UnitController : MonoBehaviour
 {
     [SerializeField] float movementSpeed = 1f;
+    [SerializeField] private int maxNumEnemies = 2;
+    [SerializeField] private int numEnemies = 0;
 
     GameObject selectedUnit;
     bool unitSelected = false;
@@ -22,6 +24,12 @@ public class UnitController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (numEnemies < maxNumEnemies)
+        {
+            // spawn enemy
+            spawnEnemy();
+
+        }
         if(Input.GetMouseButtonDown(0))
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -52,9 +60,25 @@ public class UnitController : MonoBehaviour
                     
                     // initiate death sequence
                     Enemy enemy = selectedUnit.GetComponent<Enemy>();
-                    enemy.initateDeath();
+                    if (enemy.initateDeath())
+                    {
+                        numEnemies--;
+                    }
+                    
                 }
             }
         }
+    }
+
+    public bool spawnEnemy()
+    {   
+        // spawn an enemy at a random unoccupied tile
+        
+        // get a random tile position
+        // find the tile object at the randomly generated position
+        // check if it's unoccupied
+        // set the location of the new enemy object to that location
+        // set that tile as occupied
+        return true;
     }
 }
