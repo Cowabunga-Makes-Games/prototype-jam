@@ -3,7 +3,7 @@ using UnityEngine;
 
 
 //Simple parent class for both player and enemy characters
-public class Character : MonoBehaviour
+public class Character: MonoBehaviour
 {
 	//stores position of character
 	public PosNode pos;
@@ -21,6 +21,11 @@ public class Character : MonoBehaviour
     public Character(PosNode p)
     {
 		pos = p;
+    }
+
+    public void Initialize(PosNode p)
+    {
+	    pos = p;
     }
     
     //move this character north one node
@@ -69,6 +74,11 @@ public class Character : MonoBehaviour
 		    this.pos.setOccupant(this);
 
 	    }
+    }
+
+    public PosNode getTile()
+    {
+	    return pos;
     }
 }
 

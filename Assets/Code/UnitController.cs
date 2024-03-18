@@ -9,6 +9,8 @@ public class UnitController : MonoBehaviour
     [SerializeField] private int maxNumEnemies = 2;
     [SerializeField] private int numEnemies = 0;
 
+    public GameObject chargeEnemyPrefab;
+
     GameObject selectedUnit;
     bool unitSelected = false;
 
@@ -24,12 +26,12 @@ public class UnitController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (numEnemies < maxNumEnemies)
+        
+        while (numEnemies < maxNumEnemies)
         {
-            // spawn enemy
             spawnEnemy();
-
         }
+        
         if(Input.GetMouseButtonDown(0))
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -70,15 +72,13 @@ public class UnitController : MonoBehaviour
         }
     }
 
-    public bool spawnEnemy()
+    public void spawnEnemy()
     {   
-        // spawn an enemy at a random unoccupied tile
-        
-        // get a random tile position
-        // find the tile object at the randomly generated position
-        // check if it's unoccupied
-        // set the location of the new enemy object to that location
-        // set that tile as occupied
-        return true;
+        PosNode tile = gridManager.findUnoccupiedTile();
+        GameObject enemy = Instantiate(chargeEnemyPrefab, new Vector3(tile.Pos.x, 0.5f, tile.Pos.y), Quaternion.identity);
+        enemy.GetComponent<ChargeEnemy>().Initialize(tile);
+        tile.setOccupant(enemy.GetComponent<ChargeEnemy>());
+
+        numEnemies++;
     }
 }

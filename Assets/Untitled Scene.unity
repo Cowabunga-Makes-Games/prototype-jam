@@ -310,7 +310,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 1
   maxNumEnemies: 2
-  numEnemies: 2
+  numEnemies: 0
+  chargeEnemyPrefab: {fileID: 6257359549676090643, guid: 652dbe8f41caf174fa6b050decc41fd2,
+    type: 3}
 --- !u!4 &311133082
 Transform:
   m_ObjectHideFlags: 0
@@ -741,6 +743,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Charge Enemy (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6257359549676090643, guid: 652dbe8f41caf174fa6b050decc41fd2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8344034285527924206, guid: 652dbe8f41caf174fa6b050decc41fd2, type: 3}
@@ -2193,6 +2200,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Charge Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 6257359549676090643, guid: 652dbe8f41caf174fa6b050decc41fd2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8344034285527924206, guid: 652dbe8f41caf174fa6b050decc41fd2, type: 3}
