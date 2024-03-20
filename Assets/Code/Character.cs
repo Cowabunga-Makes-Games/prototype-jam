@@ -1,8 +1,9 @@
 ﻿using System;
+using UnityEngine;
 
 
 //Simple parent class for both player and enemy characters
-public class Character
+public class Character: MonoBehaviour
 {
 	//stores position of character
 	public PosNode pos;
@@ -20,6 +21,11 @@ public class Character
     public Character(PosNode p)
     {
 		pos = p;
+    }
+
+    public void Initialize(PosNode p)
+    {
+	    pos = p;
     }
     
     //move this character north one node
@@ -69,6 +75,11 @@ public class Character
 
 	    }
     }
+
+    public PosNode getTile()
+    {
+	    return pos;
+    }
 }
 
 
@@ -78,15 +89,6 @@ public class Player : Character
 
 
     public Player(PosNode p) : base(p)
-    {
-    }
-}
-
-
-//Parent class for all enemies, we can create children classes for each subtype
-public class Enemy : Character
-{
-    public Enemy(PosNode p) : base(p)
     {
     }
 }
