@@ -20,11 +20,11 @@ MonoBehaviour:
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-      guid: 143fe34c57c18247b1481371fe791e53
+      guid: 1964e026b60e5348976597dde2abcec7
     ParentPath: Virtual Acoustics\Default Work Unit
-    guid: 143fe34c57c18247b1481371fe791e53
+    guid: 1964e026b60e5348976597dde2abcec7
     GuidInternal: 
-    m_lastTime: -8584917563814775808
+    m_lastTime: -8584917676525323695
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -34,11 +34,11 @@ MonoBehaviour:
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-      guid: e6e299758791d448b473552cd8168460
+      guid: 768a5abb5de4d445bf0eb809a7d64c10
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
-    guid: e6e299758791d448b473552cd8168460
+    guid: 768a5abb5de4d445bf0eb809a7d64c10
     GuidInternal: 
-    m_lastTime: -8584917563914775808
+    m_lastTime: -8584917676525563742
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -49,7 +49,7 @@ MonoBehaviour:
         guid: 00000000000000000000000000000000
       - ElementName: Default Work Unit
         ObjectType: 12
-        guid: e6e299758791d448b473552cd8168460
+        guid: 768a5abb5de4d445bf0eb809a7d64c10
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\avy soundbanks
     guid: 4f9368ee7108354b9d150dc7125847fd
     GuidInternal: 
-    m_lastTime: -8584917563814775808
+    m_lastTime: -8585198151240493881
     List:
     - name: mus
       guid: ac1687129871b743af871a5c74d5106b
@@ -107,7 +107,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: ef7e3c329da03f45bc42f96cf0be92c3
     GuidInternal: 
-    m_lastTime: -8584917563814775808
+    m_lastTime: -8584917648273831885
     List:
     - name: Main
       guid: 6659c9fcc98b8f42a86f77bd80236dce
@@ -135,7 +135,7 @@ MonoBehaviour:
     ParentPath: Events\avy music events
     guid: 8baaadf9c8ed3445a187a91190a7f211
     GuidInternal: 
-    m_lastTime: -8584917563934775808
+    m_lastTime: -8585198255361856602
     List:
     - name: Mute_level_one_music
       guid: 477c3a8273e86a4e8369cd967ae34c0d
@@ -216,7 +216,7 @@ MonoBehaviour:
     ParentPath: Events\avy sfx events
     guid: e4bef5de3a603143ac9568c3f0c086aa
     GuidInternal: 
-    m_lastTime: -8584917563934775808
+    m_lastTime: -8585086077380218414
     List:
     - name: Play_sfx_enemyBeefy
       guid: e55b834f50f12c4c92fd53370b2a60c1
@@ -500,7 +500,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: a7205d29a3697241bf5ebf00e33887a1
     GuidInternal: 
-    m_lastTime: -8584917563934775808
+    m_lastTime: -8584917649433920679
     List:
     - name: Play_Alien_Arena_Assault_170bpm
       guid: ffe7338374207445ada63f3f7b5da275
@@ -1020,40 +1020,12 @@ MonoBehaviour:
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-      guid: 892490710cf8ef4db7ac12c89f1cdd54
+      guid: 858864b16df542499989739f79d98131
     ParentPath: Game Parameters\Default Work Unit
-    guid: 892490710cf8ef4db7ac12c89f1cdd54
+    guid: 858864b16df542499989739f79d98131
     GuidInternal: 
-    m_lastTime: -8584917563934775808
-    List:
-    - name: Hype
-      guid: 34ac0ff1f98e2b45915383ade95b5819
-      id: 3296584377
-      PathAndIcons:
-      - ElementName: Game Parameters
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 892490710cf8ef4db7ac12c89f1cdd54
-      - ElementName: Hype
-        ObjectType: 13
-        guid: 34ac0ff1f98e2b45915383ade95b5819
-      Path: Game Parameters\Default Work Unit\Hype
-    - name: On_Disco_Floor
-      guid: 3b12531319875f43969e773d804b92e8
-      id: 4082227278
-      PathAndIcons:
-      - ElementName: Game Parameters
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 892490710cf8ef4db7ac12c89f1cdd54
-      - ElementName: On_Disco_Floor
-        ObjectType: 13
-        guid: 3b12531319875f43969e773d804b92e8
-      Path: Game Parameters\Default Work Unit\On_Disco_Floor
+    m_lastTime: -8584917676524683529
+    List: []
   StateWwu:
   - PhysicalPath: States\avy music states.wwu
     PathAndIcons:
@@ -1066,7 +1038,7 @@ MonoBehaviour:
     ParentPath: States\avy music states
     guid: 88f9a8ba8936b2469affb6b387ee26c7
     GuidInternal: 
-    m_lastTime: -8584917563814775808
+    m_lastTime: -8585198255327022894
     List:
     - name: hype
       guid: c7cd1fb61becfe4fa4fe776204b2fa7c
@@ -1189,210 +1161,12 @@ MonoBehaviour:
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-      guid: 2342ccbf0aa9c04f9192554bce3163ed
+      guid: 6f176540d4627644a6ce9e5559e526f0
     ParentPath: States\Default Work Unit
-    guid: 2342ccbf0aa9c04f9192554bce3163ed
+    guid: 6f176540d4627644a6ce9e5559e526f0
     GuidInternal: 
-    m_lastTime: -8584917563814775808
-    List:
-    - name: Cutscenes
-      guid: a736e536d4d1714f9103dab8138e6e50
-      id: 3765803840
-      PathAndIcons:
-      - ElementName: States
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 2342ccbf0aa9c04f9192554bce3163ed
-      - ElementName: Cutscenes
-        ObjectType: 9
-        guid: a736e536d4d1714f9103dab8138e6e50
-      Path: States\Default Work Unit\Cutscenes
-      values:
-      - name: None
-        guid: 3482c99d14f6cd42b020f90911b17dd4
-        id: 748895195
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 2342ccbf0aa9c04f9192554bce3163ed
-        - ElementName: Cutscenes
-          ObjectType: 9
-          guid: a736e536d4d1714f9103dab8138e6e50
-        - ElementName: None
-          ObjectType: 8
-          guid: 3482c99d14f6cd42b020f90911b17dd4
-      - name: Op
-        guid: 9f05e7cd4f6cdc459e79660888bf1b34
-        id: 1651971872
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 2342ccbf0aa9c04f9192554bce3163ed
-        - ElementName: Cutscenes
-          ObjectType: 9
-          guid: a736e536d4d1714f9103dab8138e6e50
-        - ElementName: Op
-          ObjectType: 8
-          guid: 9f05e7cd4f6cdc459e79660888bf1b34
-      - name: Op_Ending
-        guid: 5a7a11f1bf57454b938a4f58592a75f8
-        id: 579136826
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 2342ccbf0aa9c04f9192554bce3163ed
-        - ElementName: Cutscenes
-          ObjectType: 9
-          guid: a736e536d4d1714f9103dab8138e6e50
-        - ElementName: Op_Ending
-          ObjectType: 8
-          guid: 5a7a11f1bf57454b938a4f58592a75f8
-      ValueGuids: []
-      ValueIcons: []
-      valuesInternal: []
-    - name: Gameplay_State
-      guid: 5d9987b5e9621f4394b473168dc556f9
-      id: 762757699
-      PathAndIcons:
-      - ElementName: States
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 2342ccbf0aa9c04f9192554bce3163ed
-      - ElementName: Gameplay_State
-        ObjectType: 9
-        guid: 5d9987b5e9621f4394b473168dc556f9
-      Path: States\Default Work Unit\Gameplay_State
-      values:
-      - name: Combat
-        guid: ae633cd2848c40419a0c994815485352
-        id: 2764240573
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 2342ccbf0aa9c04f9192554bce3163ed
-        - ElementName: Gameplay_State
-          ObjectType: 9
-          guid: 5d9987b5e9621f4394b473168dc556f9
-        - ElementName: Combat
-          ObjectType: 8
-          guid: ae633cd2848c40419a0c994815485352
-      - name: None
-        guid: 6db3c6171630c94099b01bae6cbe943f
-        id: 748895195
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 2342ccbf0aa9c04f9192554bce3163ed
-        - ElementName: Gameplay_State
-          ObjectType: 9
-          guid: 5d9987b5e9621f4394b473168dc556f9
-        - ElementName: None
-          ObjectType: 8
-          guid: 6db3c6171630c94099b01bae6cbe943f
-      - name: Victory
-        guid: bfa20891911c034fbbcd47f60251d933
-        id: 2716678721
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 2342ccbf0aa9c04f9192554bce3163ed
-        - ElementName: Gameplay_State
-          ObjectType: 9
-          guid: 5d9987b5e9621f4394b473168dc556f9
-        - ElementName: Victory
-          ObjectType: 8
-          guid: bfa20891911c034fbbcd47f60251d933
-      ValueGuids: []
-      ValueIcons: []
-      valuesInternal: []
-    - name: Win
-      guid: 069e7368fad2aa4a94e706367fa384a7
-      id: 979765101
-      PathAndIcons:
-      - ElementName: States
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 2342ccbf0aa9c04f9192554bce3163ed
-      - ElementName: Win
-        ObjectType: 9
-        guid: 069e7368fad2aa4a94e706367fa384a7
-      Path: States\Default Work Unit\Win
-      values:
-      - name: Game_Win
-        guid: 7bb4e49ddbff654aa6365a42ee141325
-        id: 3218375656
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 2342ccbf0aa9c04f9192554bce3163ed
-        - ElementName: Win
-          ObjectType: 9
-          guid: 069e7368fad2aa4a94e706367fa384a7
-        - ElementName: Game_Win
-          ObjectType: 8
-          guid: 7bb4e49ddbff654aa6365a42ee141325
-      - name: In_Game
-        guid: af1c8af7917bff4db42e67a2e69eaa74
-        id: 2967546505
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 2342ccbf0aa9c04f9192554bce3163ed
-        - ElementName: Win
-          ObjectType: 9
-          guid: 069e7368fad2aa4a94e706367fa384a7
-        - ElementName: In_Game
-          ObjectType: 8
-          guid: af1c8af7917bff4db42e67a2e69eaa74
-      - name: None
-        guid: aaf590fc24fe22428cf6f9e15a97adef
-        id: 748895195
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 2342ccbf0aa9c04f9192554bce3163ed
-        - ElementName: Win
-          ObjectType: 9
-          guid: 069e7368fad2aa4a94e706367fa384a7
-        - ElementName: None
-          ObjectType: 8
-          guid: aaf590fc24fe22428cf6f9e15a97adef
-      ValueGuids: []
-      ValueIcons: []
-      valuesInternal: []
+    m_lastTime: -8584917676525503740
+    List: []
   SwitchWwu:
   - PhysicalPath: Switches\avy switches.wwu
     PathAndIcons:
@@ -1405,7 +1179,7 @@ MonoBehaviour:
     ParentPath: Switches\avy switches
     guid: 48274d0beb00ff48b221ac723344092f
     GuidInternal: 
-    m_lastTime: -8584917563814775808
+    m_lastTime: -8585198255327012895
     List:
     - name: footsteps
       guid: 575f742d082bb84398b86a72caabf670
@@ -1480,11 +1254,11 @@ MonoBehaviour:
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-      guid: 703b9a431f11b54492eb565cd920d6e2
+      guid: 3ad89b9b7133a4438aeec7c76374cd7a
     ParentPath: Switches\Default Work Unit
-    guid: 703b9a431f11b54492eb565cd920d6e2
+    guid: 3ad89b9b7133a4438aeec7c76374cd7a
     GuidInternal: 
-    m_lastTime: -8584917563814775808
+    m_lastTime: -8584917676525613757
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -1494,28 +1268,14 @@ MonoBehaviour:
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-      guid: 33c9e3b26a54984c8c894d99c93645b1
+      guid: 7ca123dd4f2e1c4bad09d25336e02e9b
     ParentPath: Triggers\Default Work Unit
-    guid: 33c9e3b26a54984c8c894d99c93645b1
+    guid: 7ca123dd4f2e1c4bad09d25336e02e9b
     GuidInternal: 
-    m_lastTime: -8584917563814775808
-    List:
-    - name: F_press
-      guid: fa2033af2f5ccb4399c8256dd2d5007f
-      id: 52394209
-      PathAndIcons:
-      - ElementName: Triggers
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 33c9e3b26a54984c8c894d99c93645b1
-      - ElementName: F_press
-        ObjectType: 14
-        guid: fa2033af2f5ccb4399c8256dd2d5007f
-      Path: Triggers\Default Work Unit\F_press
+    m_lastTime: -8584917676524803555
+    List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 360000003a000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
