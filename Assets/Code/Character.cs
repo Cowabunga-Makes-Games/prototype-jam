@@ -71,16 +71,3 @@ public class Character : MonoBehaviour {
     }
 }
 
-//Parent class for all enemies, we can create children classes for each subtype
-public class Enemy : Character {
-
-//player class, feel free to change name btw
-public class Player : Character
-{
-
-
-    public Player(PosNode p) : base(p)
-    {
-    }
-}
-

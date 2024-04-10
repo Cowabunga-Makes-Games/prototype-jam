@@ -2,12 +2,7 @@
 using UnityEngine;
 
 //Parent class for all enemies, we can create children classes for each subtype
-public class Enemy : Character
-{
-    public Enemy(PosNode p): base(p)
-    {
-        throw new NotImplementedException();
-    }
+public class Enemy : Character {
 
     public bool initateDeath()
     {
