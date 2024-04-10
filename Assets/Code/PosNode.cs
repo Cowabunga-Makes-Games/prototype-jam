@@ -7,7 +7,7 @@ public class PosNode
 {
 
 	//stores the position of the node
-	public Vector2Int pos;
+	public Vector2Int Pos;
 	//stores the character occupying the node
 	public Character Occupant;
 	//stores the nodes north (+y), south (-y), east (+x), and west (-x) of this node, may need to add more or modify to an array if we add diagonal movement
@@ -19,7 +19,7 @@ public class PosNode
 	//empty init
 	public PosNode()
 	{
-		pos = Vector2Int.zero;
+		Pos = Vector2Int.zero;
 		Occupant = null;
 		North = null;
 		South = null;
@@ -29,13 +29,14 @@ public class PosNode
 
 	public PosNode(Vector2Int p)
 	{
-		pos = p;
+		Pos = p;
+		Occupant = null;
 	}
 
 	//nonempty init
 	public PosNode(Vector2Int p, Character o, PosNode n, PosNode s, PosNode e, PosNode w)
 	{
-		pos = p;
+		Pos = p;
 		Occupant = o;
 		North = n;
 		South = s;
@@ -69,6 +70,11 @@ public class PosNode
 	public void setOccupant(Character c)
 	{
 		Occupant = c;
+	}
+
+	public void removeOccupant()
+	{
+		Occupant = null;
 	}
 
 	//return if node is occupied

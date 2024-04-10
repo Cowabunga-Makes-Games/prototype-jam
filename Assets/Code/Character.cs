@@ -23,6 +23,11 @@ public class Character : MonoBehaviour {
     public void Init(PosNode p) {
 		pos = p;
     }
+
+    public void Initialize(PosNode p)
+    {
+	    pos = p;
+    }
     
     //move this character north one node
     public void MoveNorth() {
@@ -59,9 +64,23 @@ public class Character : MonoBehaviour {
 	    this.pos = this.pos.getWest();
 	    this.pos.setOccupant(this);
     }
+
+    public PosNode getTile()
+    {
+	    return pos;
+    }
 }
 
 //Parent class for all enemies, we can create children classes for each subtype
 public class Enemy : Character {
+
+//player class, feel free to change name btw
+public class Player : Character
+{
+
+
+    public Player(PosNode p) : base(p)
+    {
+    }
 }
 
